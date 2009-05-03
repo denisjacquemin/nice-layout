@@ -102,9 +102,20 @@ table.layout {
 #inner-content {
     padding: 0 8px 0 0;
 }
+
+.bloc {
+    background: #ffffff;
+}
+
 #main-content #inner-content .bloc .header {
     background: #EDF3FE;
     padding: 10px 20px;
+    text-align:left;
+}
+
+#main-content #inner-content .bloc .content {
+    background: #ffffff;
+    padding: 20px;
     text-align:left;
 }
 
@@ -116,11 +127,38 @@ table.layout {
     font-family:"Lucida Grande",arial,sans-serif;
 }
 
+#main-content #inner-content .bloc .content h2 {
+    color:#333333;
+    font-size:14px;
+    margin:0;
+    padding:0;
+    font-family:"Lucida Grande",arial,sans-serif;
+}
+
+#main-content #inner-content .bloc .content p {
+    font-size:12px;
+    line-height:16px;
+}
+
+
 
 #sidebar {
     width:30%;
 }
 
-.bloc {
-    background: #ffffff;
+#footer {
+    color:#666666;
+    font-size:9px;
+    margin:4px 0 20px 40px;
+    padding-bottom:15px;
+    text-align:left;
+}
+
+#footer a {
+    color:#666666; 
+}
+
+#footer a:hover {
+    background:#666666;
+    color:#FFFFFF;
 }
