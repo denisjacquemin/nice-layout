@@ -96,15 +96,16 @@ table.layout {
 
 #main-content {
     width:70%;
-    background: url('../images/right-bg.gif') repeat-y right;
 }
 
 #inner-content {
-    padding: 0 8px 0 0;
+    
 }
 
 .bloc {
     background: #ffffff;
+    padding: 0 8px 0 0;
+    background: url('../images/right-bg.gif') repeat-y right;
 }
 
 #main-content #inner-content .bloc .header {
@@ -138,6 +139,11 @@ table.layout {
 #main-content #inner-content .bloc .content p {
     font-size:12px;
     line-height:16px;
+}
+
+.bottom {
+    background:transparent url(../images/bottom-bg.gif) no-repeat scroll right top;
+    height:7px;
 }
 
 
