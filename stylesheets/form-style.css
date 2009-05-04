@@ -1,7 +1,14 @@
 input, textarea {
   font-family:"Lucida Grande",verdana;
   font-size:14px;
-  width:450px;
+}
+
+textarea {
+    width:400px;
+}
+
+input {
+    width:395px;
 }
 
 input {
