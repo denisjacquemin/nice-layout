@@ -45,6 +45,13 @@ a:hover.blue {
 }
 
 a.blue {
-    padding:1px;
     text-decoration:underline;
+}
+
+a.wide-link {
+    padding:5px 2px;
+}
+
+a.small-link {
+    padding:0 2px;
 }

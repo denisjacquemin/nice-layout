@@ -1,0 +1,28 @@
+#main-content #inner-content .bloc .content fieldset {
+    border:none;
+    background:#F0F0F0;
+    margin:10px;
+    padding:30px 10px;
+}
+
+div.field {
+  clear:left;
+  padding:0 0 2px;
+  margin-bottom:5px;
+}
+
+div.info {
+  float:left;
+  padding-top:3px;
+  text-align:right;
+  width:120px;
+}
+
+div.help {
+  margin: 0 0 0 135px;
+}
+
+div.input {
+  margin-left:120px;
+  padding-left:10px;
+}

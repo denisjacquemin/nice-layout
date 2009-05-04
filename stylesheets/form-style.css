@@ -1,0 +1,21 @@
+input, textarea {
+  font-family:"Lucida Grande",verdana;
+  font-size:14px;
+  width:450px;
+}
+
+input {
+  padding: 0 5px;
+}
+
+textarea {
+  padding:5px;
+}
+
+div.info {
+    font-size:12px;
+}
+
+div.help {
+  font-size:11px;
+}
