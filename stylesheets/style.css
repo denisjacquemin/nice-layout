@@ -31,3 +31,20 @@ body {
 #header h1 {
     color:#FFFFFF;
 }
+
+a:link.blue, a:visited.blue {
+    color:#0033CC;
+}
+a:link.blue {
+    color:#0033CC;
+}
+
+a:hover.blue {
+    background:#0033CC;
+    color:#ffffff;
+}
+
+a.blue {
+    padding:1px;
+    text-decoration:underline;
+}

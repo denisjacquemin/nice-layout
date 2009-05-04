@@ -126,6 +126,12 @@ table.layout {
     margin:0;
     padding:0;
     font-family:"Lucida Grande",arial,sans-serif;
+    display:inline;
+}
+
+#main-content #inner-content .bloc .header .sub-tabs {
+    color:#CCCCCC;
+    font-size:12px;
 }
 
 #main-content #inner-content .bloc .content h2 {
@@ -144,9 +150,8 @@ table.layout {
 .bottom {
     background:transparent url(../images/bottom-bg.gif) no-repeat scroll right top;
     height:7px;
+    margin: 0 0 30px 0;
 }
-
-
 
 #sidebar {
     width:30%;
