@@ -90,12 +90,9 @@ a {
     padding:12px 23px 0 30px;
 }
 
-table.layout {
-    width:100%;
-}
-
 #main-content {
-    width:70%;
+    width:68%;
+    float:left;
 }
 
 #inner-content {
@@ -154,10 +151,12 @@ table.layout {
 }
 
 #sidebar {
-    width:30%;
+    width:32%;
+    float:left;
 }
 
 #footer {
+    clear:both;
     color:#666666;
     font-size:9px;
     margin:0 0 20px 40px;
