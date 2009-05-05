@@ -7,31 +7,6 @@ body {
     text-align:center;
 }
 
-#header {
-    background-color:#000000;
-}
-
-#header h3 {
-    padding: 0 15px 0;
-}
-
-#header h3 a{
-    padding: 6px 3px;
-}
-
-#header h3, #header h3 a:link, #header h3 a:visited {
-    color:#999999;
-}
-
-#header h3 a:hover {
-    background-color:#EFEFEF;
-    color:#000000;
-}
-
-#header h1 {
-    color:#FFFFFF;
-}
-
 a:link.blue, a:visited.blue {
     color:#0033CC;
 }

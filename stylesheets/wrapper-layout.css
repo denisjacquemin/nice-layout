@@ -1,0 +1,91 @@
+#wrapper {
+    margin:0 auto;
+    padding:12px 20px 0 20px;
+}
+
+#wrapper-clear {
+    clear:both;
+}
+
+#main-content {
+    width:68%;
+    float:left;
+}
+
+#main-content .bloc {
+    background: #ffffff;
+    padding: 0 8px 0 0;
+    background: url('../images/right-bg.gif') repeat-y right;
+}
+
+#main-content .bloc .header {
+    background: #EDF3FE;
+    padding: 10px 20px;
+    text-align:left;
+}
+
+#main-content .bloc .content {
+    background: #ffffff;
+    padding: 20px;
+    text-align:left;
+}
+
+#main-content .bloc .header h1 {
+    color:#000000;
+    font-size:14px;
+    margin:0;
+    padding:0;
+    font-family:"Lucida Grande",arial,sans-serif;
+    display:inline;
+}
+
+#main-content .bloc .header .sub-tabs {
+    color:#CCCCCC;
+    font-size:12px;
+}
+
+#main-content .bloc .content h2 {
+    color:#333333;
+    font-size:14px;
+    margin:0;
+    padding:0;
+    font-family:"Lucida Grande",arial,sans-serif;
+}
+
+#main-content .bloc .content p {
+    font-size:12px;
+    line-height:16px;
+}
+
+.bloc-bottom {
+    background:transparent url(../images/bottom-bg.gif) no-repeat scroll right top;
+    height:7px;
+    margin: 0 0 30px 0;
+}
+
+#sidebar {
+    width:32%;
+    float:left;
+    text-align:left;
+}
+
+#sidebar .bloc {
+    padding: 0 0 0 5px;
+}
+
+#sidebar .bloc h2 {
+    background:#F0F0F0 none repeat scroll 0 0;
+    border-bottom:1px solid #DCDCDC;
+    color:#333333;
+    font-size:12px;
+    font-weight:bold;
+    margin:0 0 5px 0;
+    padding:2px 5px;
+}
+
+#sidebar .bloc p {
+    font-size:12px;
+    line-height:1.4em;
+    margin:0 0 20px;
+    padding: 0 5px;
+}
