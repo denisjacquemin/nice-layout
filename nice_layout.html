@@ -14,6 +14,8 @@
         <link rel="stylesheet" href="stylesheets/wrapper-style.css" type="text/css" media="screen" charset="utf-8" />
         <link rel="stylesheet" href="stylesheets/form-layout.css" type="text/css" media="screen" charset="utf-8" />
         <link rel="stylesheet" href="stylesheets/form-style.css" type="text/css" media="screen" charset="utf-8" />
+        <link rel="stylesheet" href="stylesheets/table-layout.css" type="text/css" media="screen" charset="utf-8" />
+        <link rel="stylesheet" href="stylesheets/table-style.css" type="text/css" media="screen" charset="utf-8" />
     </head>
     <body>
         <div id="header">
@@ -56,7 +58,7 @@
                 <div class="bloc">
                     <div class="header">
                         <h1>Bloc with sub tabs and form</h1>
-                        <span class="sub-tabs">| <a href="#" class="blue wide-link">sub tab 1</a> | <a href="#" class="blue wide-link">sub tab 2</a></span>
+                        <span class="sub-tabs">| <a href="#" class="blue-link wide-link">sub tab 1</a> | <a href="#" class="blue-link wide-link">sub tab 2</a></span>
                     </div>
                     <div class="content">
                         <h2>Here is a nice form</h2>
@@ -74,13 +76,40 @@
                             <div class="field">
                                 <div class="info"> <label for="field_name">Third Label</label> </div>
                                 <div class="input"> <textarea rows="5"></textarea> </div>
-                                <div class="help"> help message <a href="#" class="blue small-link">with link</a> </div>
+                                <div class="help"> help message <a href="#" class="blue-link small-link">with link</a> </div>
                             </div>
                             <div class="field">
                                 <div class="info"> <label for="field_name">Again a Label</label> </div>
                                 <div class="input"> <select><option>Select Something</option></select></div>
                             </div>
                         </fieldset>
+                    </div>
+                </div>
+                <div class="bloc-bottom"></div>
+
+                <div class="bloc">
+                    <div class="header">
+                        <h1>Bloc with table</h1>
+                    </div>
+                    <div class="content">
+                        <h2>Nice table with dummy data</h2>
+                        <table>
+                            <tr>
+                                <th>Firstname</th>
+                                <th>Lastname</th>
+                                <th>Street</th>
+                                <th>Zip Code</th>
+                                <th>City</th>
+                                <th>Country</th>
+                            </tr>
+                            <tr class="even"><td>Denis</td><td>Jacquemin</td><td>Wisteria laan</td><td class="number">10455</td><td>Brussels</td><td>Belgium</td></tr>
+                            <tr class="odd"><td>Denis</td><td>Jacquemin</td><td>Wisteria laan</td><td class="number">10455</td><td>Brussels</td><td>Belgium</td></tr>
+                            <tr class="even"><td>Denis</td><td>Jacquemin</td><td>Wisteria laan</td><td class="number">10455</td><td>Brussels</td><td>Belgium</td></tr> 
+                            <tr class="odd"><td>Denis</td><td>Jacquemin</td><td>Wisteria laan</td><td class="number">10455</td><td>Brussels</td><td>Belgium</td></tr> 
+                            <tr class="even"><td>Denis</td><td>Jacquemin</td><td>Wisteria laan</td><td class="number">10455</td><td>Brussels</td><td>Belgium</td></tr>
+                            <tr class="odd"><td>Denis</td><td>Jacquemin</td><td>Wisteria laan</td><td class="number">10455</td><td>Brussels</td><td>Belgium</td></tr>
+                        </table>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
                 </div>
                 <div class="bloc-bottom"></div>
@@ -91,8 +120,16 @@
                 <!-- Lorem Sidebar -->
                 
                 <div class="bloc">
-                    <h2>Lorem Sidebar</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, <a href="#" class="blue small-link">sed do eiusmod tempor</a> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>                    
+                    <h2>Classic Lorem Sidebar</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, <a href="#" class="blue-link small-link">sed do eiusmod tempor</a> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>                    
+                </div>
+                <div class="bloc yellow">
+                    <h2>Yellow lorem</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, <a href="#" class="blue-link small-link">sed do eiusmod tempor</a> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>                    
+                </div>
+                <div class="bloc blue">
+                    <h2>blue-link lorem</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, <a href="#" class="blue-link small-link">sed do eiusmod tempor</a> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>                    
                 </div>
             </div>
             <div id="wrapper-clear"></div>

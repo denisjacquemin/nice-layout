@@ -1,0 +1,23 @@
+#main-content .bloc table th {
+    color:#000000;
+    font-size:13px;
+    text-align:center;
+}
+
+#main-content .bloc table td {
+    color:#000000;
+    font-size:12px;
+    padding:2px 4px;
+}
+
+#main-content .bloc table td.number {
+    text-align:right;
+}
+
+#main-content .bloc table tr.odd {
+    background:#ccc;
+}
+
+#main-content .bloc table tr.even {
+    background:#eee;
+}

@@ -70,16 +70,15 @@
 }
 
 #sidebar .bloc {
-    padding: 0 0 0 5px;
+    margin: 0 0 0 5px;
 }
 
 #sidebar .bloc h2 {
-    background:#F0F0F0 none repeat scroll 0 0;
     border-bottom:1px solid #DCDCDC;
     color:#333333;
     font-size:12px;
     font-weight:bold;
-    margin:0 0 5px 0;
+    margin:0;
     padding:2px 5px;
 }
 
@@ -87,5 +86,5 @@
     font-size:12px;
     line-height:1.4em;
     margin:0 0 20px;
-    padding: 0 5px;
+    padding: 10px 5px;
 }

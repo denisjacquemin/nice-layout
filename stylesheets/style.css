@@ -7,19 +7,19 @@ body {
     text-align:center;
 }
 
-a:link.blue, a:visited.blue {
+a:link.blue-link, a:visited.blue-link {
     color:#0033CC;
 }
-a:link.blue {
+a:link.blue-link {
     color:#0033CC;
 }
 
-a:hover.blue {
+a:hover.blue-link {
     background:#0033CC;
     color:#ffffff;
 }
 
-a.blue {
+a.blue-link {
     text-decoration:underline;
 }
 
