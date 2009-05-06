@@ -30,3 +30,11 @@ a.wide-link {
 a.small-link {
     padding:0 2px;
 }
+
+strong {
+    padding: 0 2px;
+    background:#FF0000;
+    color:#ffffff;
+    font-weight:normal;
+}
+
