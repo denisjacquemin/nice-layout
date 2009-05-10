@@ -1,23 +1,22 @@
+#main-content .bloc table {
+    font-family:Monaco,"Courier New",monospace;
+}
+
 #main-content .bloc table th {
-    color:#000000;
+    background-color:#EAEAEA;
+    color:#999999;
+    font-weight:normal;
     font-size:13px;
-    text-align:center;
 }
 
 #main-content .bloc table td {
-    color:#000000;
-    font-size:12px;
-    padding:2px 4px;
+    background:#F8F8F8 url(../images/row-bg.png) repeat-x scroll 0 100%;
+    border-bottom:1px solid #E1E1E1;
+    color:#484848;
+    padding:0.5em 0.3em;
+    font-size: 12px;
 }
 
 #main-content .bloc table td.number {
     text-align:right;
-}
-
-#main-content .bloc table tr.odd {
-    background:#ccc;
-}
-
-#main-content .bloc table tr.even {
-    background:#eee;
 }
