@@ -19,7 +19,19 @@ a:hover.blue-link {
     color:#ffffff;
 }
 
-a.blue-link {
+a:link.action-link, a:visited.action-link {
+    color:#ff0000;
+}
+a:link.action-link {
+    color:#ff0000;
+}
+
+a:hover.action-link {
+    background:#ff0000;
+    color:#ffffff;
+}
+
+a.action-link {
     text-decoration:underline;
 }
 

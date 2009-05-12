@@ -3,7 +3,7 @@
     padding:12px 20px 0 20px;
 }
 
-#wrapper-clear {
+#wrapper-clear, #main-content .bloc .header .clear {
     clear:both;
 }
 
@@ -37,11 +37,20 @@
     padding:0;
     font-family:"Lucida Grande",arial,sans-serif;
     display:inline;
+    float:left;
 }
 
 #main-content .bloc .header .sub-tabs {
     color:#CCCCCC;
     font-size:12px;
+    float:left;
+    margin: 0 0 0 5px;
+}
+
+#main-content .bloc .header .actions {
+    float: right;
+    font-size:12px;
+    display:inline;
 }
 
 #main-content .bloc .content h2 {
